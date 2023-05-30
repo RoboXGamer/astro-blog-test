@@ -1,23 +1,21 @@
 ---
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+import Nav from './Nav.astro';
+const { current = '' } = Astro.props;
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
-	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-	</nav>
+	<h1>
+		Benbenlaw's Modpacks!
+	</h1>
+	<Nav current={current} />
+
 </header>
 <style>
 	header {
-		margin: 0em 0 2em;
-	}
-	h2 {
-		margin: 0.5em 0;
-	}
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 1em;
+    width: 100%;
+  }
 </style>
