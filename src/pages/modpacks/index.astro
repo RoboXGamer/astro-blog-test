@@ -1,13 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
-
+const title = "Modpacks"
 
 const posts = (await getCollection('modpacks')).sort(
 	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 	);
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const title = "Modpacks"
+
 ---
 		<BaseLayout title="title" description="Modpacks Page" current={title.toLowerCase()}>
 			<h2>{title}</h2>
