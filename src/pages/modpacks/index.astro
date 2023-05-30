@@ -9,7 +9,7 @@ const posts = (await getCollection('modpacks')).sort(
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 ---
-		<BaseLayout title="title" description="Modpacks Page" current={title.toLowerCase()}>
+		<BaseLayout title={title} description="Modpacks Page" current={title.toLowerCase()}>
 			<h2>{title}</h2>
 			<section>
 				<ul>
