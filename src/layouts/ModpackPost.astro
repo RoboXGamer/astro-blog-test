@@ -14,7 +14,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 <BaseLayout  title={SITE_TITLE} description={SITE_DESCRIPTION}>
 	<article>
 	{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
-	<h2 class="title">{title}</h2>
 	<slot />
 	</article>
 </BaseLayout>
