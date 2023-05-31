@@ -1,16 +1,27 @@
 # Astro React BBL Site
 
+# ChangeLog
+
+## Commit v0.3 (RoboXGamer)
+
+- added basic layout
+- Added automation to add more content by just adding `.md` files.
+- This website is made using React and Astro.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
 ```
 ├── public/
+    ├── images/
 ├── src/
 │   ├── components/
 │   ├── content/
+            ├── modpacks/
 │   ├── layouts/
-│   └── pages/
+│   ├── pages/
+    └── styles/
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
@@ -21,7 +32,7 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 
 The `src/content/` directory contains "collections" of related Markdown and MDX documents.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Any static assets, like images, can be placed in the `public/images` directory.
 
 ## 🧞 Commands
 
