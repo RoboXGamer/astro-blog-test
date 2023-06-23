@@ -1,12 +1,4 @@
-# Astro React BBL Site
-
-# ChangeLog
-
-## Commit v0.3 (RoboXGamer)
-
-- added basic layout
-- Added automation to add more content by just adding `.md` files.
-- This website is made using React and Astro.
+# Astro React Site
 
 ## 🚀 Project Structure
 
