@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
-    "window.zoomLevel": 0.75
+    "window.zoomLevel": 0.75,
+    "cSpell.words": ["Astro"]
   }
 }
