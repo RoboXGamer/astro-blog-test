@@ -1,14 +1,9 @@
 ---
-const platform = "github";
-const username = "roboxgamer";
+import Social from "../components/Social.astro";
 ---
 
 <footer>
-  <p>
-    Learn more about my projects on <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href={`https://www.${platform}.com/${username}`}>{platform}</a
-    >!
-  </p>
+  <span>My Social Links:</span>
+  <Social platform="github" username="roboxgamer" />
+  <Social platform="youtube" username="@roboxgamer52" />
 </footer>
