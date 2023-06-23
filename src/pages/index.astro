@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
 
+import Navigation from "../components/Navigation.astro";
+
 const pageTitle = "Home Page";
 ---
 
@@ -13,11 +15,7 @@ const pageTitle = "Home Page";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/blog/">Blog</a>
-    </nav>
+    <Navigation />
     <h1>{pageTitle}</h1>
     <p>Learning Astro is interesting!</p>
   </body>
